@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px)
+{
+    .riadok_misie {
+        flex-wrap: wrap;
+    }
+    
+    .images {
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    .images img {
+        opacity: 1;
+    }
+    
+    .images img:hover {
+        opacity: 1;
+    }
+    
+    #image-viewer {
+        display: none;
+    }
+    
+    .modal-content {
+        display: none;
+    }
+    
+    #image-viewer .close {
+        display: none;    
+    }
+        
+    #image-viewer .close:hover,
+    #image-viewer .close:focus {
+       display: none;
+    }
+} 

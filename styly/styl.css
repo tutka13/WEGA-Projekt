@@ -1,0 +1,352 @@
+body {
+    font-family: 'Merriweather Sans','Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #a81118;
+    font-family: 'Roboto';
+    height: auto;
+    color: white;
+    padding: 8px;
+}
+
+nav {
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}  
+
+.menu {
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans';
+    color: #a81118;
+    font-size: 22px;
+}
+
+.menu a {
+    padding: 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.menu a:hover{
+    color: white;
+    background-color: #f4a912;
+    box-shadow: 1px 1px 3px grey;
+}
+
+#tu {
+    background-color: #a81118;
+    color: white;
+}
+
+.ciara {
+    height: 0.25vh;
+    background-color: #f4a912;
+}
+
+h1 {
+    font-family: 'Merriweather Sans';
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    color: #f4a912;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    color: #f4d412;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h4 {
+    color: #f4a912;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+}
+
+h5 {
+    color: #f4d412;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+}
+
+.nadpis {
+    font-family: 'Merriweather Sans';
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: #a81118;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f4a912;
+    opacity: 0.9;
+}
+
+footer {
+    font-family: 'Roboto';
+    height: auto;
+    background-color: #a81118;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.fa {
+    margin: 15px;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-google{
+    color: white;
+    background-color: #a81118;
+}
+
+.fa-facebook {
+    background: white;
+    color: #a81118;
+}
+
+.fa-instagram {
+    background: white;
+    color: #a81118;
+}
+
+.fa:hover {
+    color: white;
+    background-color: #f4a912;
+}
+
+.tlacidlo {
+    display: flex;
+    padding-left: 15%;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans';
+    color: #a81118;
+    font-size: 22px;
+    justify-content: flex-start;   
+}
+
+.tlacidlo a {
+    padding: 15px;
+}
+
+.tlacidlo a:hover{
+    color: white;
+    background-color: #f4a912;
+    opacity: 0.8;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.uvodna {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#obr1 {
+    width: 100%;
+}
+
+.top {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 1.5em;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 64px;
+    font-size: 5em;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 32px;
+    left: 128px;
+    font-size: 1.5em;
+}
+
+.responzivna {
+    display: none;
+}
+
+#video {
+    padding: 3vw;
+}
+
+#uvod {
+    padding: 3vw 0 0 3vw; 
+}
+
+.vtacik {
+    margin: -30px;
+}
+
+.text {
+    padding: 5vw;
+    font-family: 'Roboto';
+}
+
+.laura {
+    width: 60px;
+}
+
+#logo_foot {
+    padding-top: 10%; 
+}
+
+.prazdna {
+    font-family: 'Roboto';
+    height: 50vh;
+    padding: 15px;
+    text-align: center;
+}
+
+.spozadim {
+    background-color: #a81118;
+    color: white;
+    padding: 5vw;
+}
+
+#resp {
+    display: none;
+}
+
+.riadok {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotka_ktosme {
+    height: 400px;
+    transition: transform 0.5s;
+}
+
+.fotka_ktosme:hover {
+    transform: scale(1.1,1.1);
+}
+
+.fotka_clanok {
+    width: 500px;
+    padding: 3vw;
+    transition: transform 0.5s;
+}
+
+.fotka_clanok:hover {
+    transform: scale(1.1,1.1);
+}
+
+.riadok_misie {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.images {
+    flex: 25%;
+    padding: 4px;
+}
+
+.images img {
+    opacity: 1;
+}
+
+.images img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#image-viewer {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+    z-index: 5;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#image-viewer .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;    
+}
+    
+#image-viewer .close:hover,
+#image-viewer .close:focus ´{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kontakt {
+    font-family: 'Roboto';
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}

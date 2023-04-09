@@ -1,0 +1,159 @@
+@media screen and (max-width: 1030px)
+{  
+    .obycajna {
+        display: none;
+     }
+        
+    .responzivna {
+        display: block;
+    }
+        
+    .nav {
+        background-color: #f4d412;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100vw; 
+        height: 100vh;
+        transition: transform 0.7s, opacity 0.7s;
+        transform: translateX(100%);
+        z-index: 1;
+    }
+    
+    .nav.show {
+        transform: translateX(0%);
+        opacity: 0.95;
+    }
+    
+    .list {
+        text-transform: uppercase;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    
+    .hamburger {
+        position: relative;
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+        z-index: 3;
+    }
+    
+    .hamburger span {
+        position: absolute;
+        background: #a81118;
+        height: 5px;
+        width: 40px;
+        transition: transform 0.5s, opacity 0.5s;
+        z-index: 4;
+    }
+    
+    .top-line {
+        top: 25%;
+    }
+    
+    .center-line {
+        top: 45%;
+    }
+    
+    .bottom-line {
+        bottom: 25%;
+    }
+    
+    .top-line.active {
+        transform: translateY(13px) rotate(45deg);
+    }
+    
+    .center-line.active {
+        opacity: 0;
+    }
+    
+    .bottom-line.active {
+        transform: translateY(-12px) rotate(-45deg);
+    }
+        
+    .riadok {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .vtacik {
+        display: none;
+    }
+    
+    #logo_foot {
+        display: none;
+    }
+    
+    .laura {
+        display: none;
+    }
+    
+    #obr1 {
+        height: 200px;
+        width: auto;
+    }
+    
+    .top {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 1.5em;
+    }
+
+    .center {
+        position: absolute;
+        top: 25%;
+        left: 16px;
+        font-size: 5em;
+    }
+
+    .bottom {
+        position: absolute;
+        top: 75%;
+        left: 16px;
+        font-size: 1.5em;
+    }
+    
+    #video {
+        padding: 0;
+    }
+    
+    .tlacidlo {
+        padding: 15px;
+        justify-content: center;
+    }
+    
+    .fotka_clanok {
+        width: 50vw;
+        padding: 8px;
+        transform: none; 
+    }
+    
+    .fotka_clanok:hover {
+        transform: none;
+    }
+    
+    .fotka_ktosme:hover {
+        transform: none;
+    }
+    
+    #no-resp {
+        display: none;
+    }
+    
+    #resp {
+        display: block;
+    }
+    
+    .kontakt {
+        flex-wrap: wrap;
+    }
+    
+}
